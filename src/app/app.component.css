@@ -1,0 +1,30 @@
+.demoTitle{
+  border: none;
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 5px;
+  position: relative;
+}
+.demoBody{
+  border: 1px solid;
+  vertical-align: middle;
+  border-color: white;
+  background-color: white;
+  overflow: hidden;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  position: relative;
+  height: 450px;
+}
+.orionPage {
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+}
+
