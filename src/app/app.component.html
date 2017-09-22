@@ -1,22 +1,4 @@
-<!doctype html>
-<body id="orion-browser" spellcheck="false" class="orionPage">
-<div class="demoTitle">
-  <p>This is a demo for the <b>Orion Code Edit</b> widget. This demo consumes the <b>built version</b> of the widget.</p>
-  <p>Keep editing in this demo and try:</p>
-  <ol>
-    <li>Content assist. E.g., put cursor after "foo." at the last line and press CTRL+space.</li>
-    <li>Problem validations. E.g., modify something and you will see new validation markers coming up, if any.</li>
-    <li>Hover service. Hover on any error markers or inside the editor.</li>
-    <li>Syntax highlighting.</li>
-    <li>Quick fix. Hover on a problem inside the editor, not on the ruler, e.g., (char, from) in this demo. Click on the quick fix and see.</li>
-    <li>Find declaration. Select a variable and press F3.</li>
-    <li>New tooling features coming while Orion is being improved...</li>
-  </ol>
-</div>
-<div class="demoTitle">
-  <span id = "progressMessageDiv" style="color: green">Loading language tooling plugins...</span>
-</div>
-<div class="demoBody" id="embeddedEditor">
-</div>
-</body>
 
+<button (click)="redirect()">Redirect</button>
+
+<router-outlet></router-outlet>
